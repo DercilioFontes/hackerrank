@@ -10,6 +10,7 @@ function getTotalX(a, b) {
   const aLast = a[a.length - 1];
   // calculate bFirst integer
   const bFirst = b[0];
+  
   // check which number(s) between aLast and bFist are divided evenly into and put into a new array
   const arrTemp = [];
   for(let i = aLast; i <= bFirst; i++) {
